@@ -113,4 +113,4 @@ If usable visual data are insufficient, we will complete a road-inventory-only a
 
 ---
 
-**AI disclaimer:** OpenAI Codex assisted with drafting and revising this proposal and implementing the preliminary code and visualizations. The team is responsible for reviewing and validating the AI-assisted content, references, code, and results, and for all decisions and conclusions in the final submission.
+**AI disclaimer:** OpenAI Codex assisted with drafting and revising this proposal. The team is responsible for reviewing and validating the AI-assisted content, references, code, and results, and for all decisions and conclusions in the final submission.
