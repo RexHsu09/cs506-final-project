@@ -89,6 +89,16 @@ The Week 2 API and local-processing checks will guide the workload and feature c
 
 The existing explorer will display coverage, match examples, and held-out predictions alongside the evaluation tables.
 
+## Visualization plan
+
+We will use three static figures to answer the research questions and a simple interactive map to inspect individual road segments.
+
+1. **Coverage heatmap:** the share of segments with usable pre-2023 imagery by municipality and road class, showing where the imagery comparison is possible and which roads are underrepresented.
+2. **Imagery gain by held-out municipality (RQ1):** a dot plot of ΔPR-AUC for each held-out area, showing whether any benefit from imagery is consistent or driven by a few locations.
+3. **Sensitivity comparison (RQ2):** ΔPR-AUC under each matching and coverage condition, annotated with sample size and crash prevalence, since PR-AUC depends on prevalence.
+
+**Interactive map.** A lightweight Folium map, exported as a single HTML file, will color road segments by image coverage, crash label, or predicted probability. Clicking a segment will show its road attributes, a representative pre-2023 image, and both models' predictions. A basic version will be completed by Week 7, with additional features only if time allows.
+
 ## Scope controls and fallback
 
 If API features are limited and local processing is slow, we will reduce the feature set and use one representative image per segment for local extraction. We will retain standard XGBoost models and avoid additional model families or advanced uncertainty methods.
