@@ -46,6 +46,8 @@ At the end of **Week 2**, we will publish the coverage audit and freeze geograph
 
 ## Planned analysis and evaluation
 
+![Core workflow for comparing road-only and road-plus-image crash prediction models](Research_Workflow.png)
+
 ### Dataset and label construction
 
 The analysis unit will be one eligible 2022 MassDOT road-inventory line record. We will measure the distance from each crash location to nearby road segments in meters. To assess which segment it belongs to, we will check whether the reported road name matches the segment’s name and whether another nearby segment is almost equally close. Explicit intersection records and unknown junction classifications will be excluded from the final non-intersection analysis and counted separately. We will use the source data’s junction codes and definitions to identify non-intersection crashes, and manually review a sample to check that these records are classified correctly.
