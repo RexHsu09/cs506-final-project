@@ -1,4 +1,5 @@
 # Do Street-Level Images Improve Road-Segment Crash Prediction?
+**Chun Hsu · Bryan Ayala · Wei-Tung Hung · Mariam Fondong · Adilbek Bekmuldin**
 
 ## Project description and motivation
 
