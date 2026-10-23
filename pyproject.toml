@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greater-boston-geoeda"
+version = "0.1.0"
+description = "Auditable Greater Boston road, crash, and imagery EDA"
+requires-python = ">=3.11"
+dependencies = [
+    "geopandas>=1.0,<2",
+    "ipykernel>=6,<8",
+    "ipython>=8,<10",
+    "matplotlib>=3.9,<4",
+    "nbclient>=0.10,<1",
+    "nbformat>=5.10,<6",
+    "numpy>=2,<3",
+    "pandas>=2.2,<4",
+    "pyarrow>=18",
+    "pyproj>=3.6,<4",
+    "python-dotenv>=1,<2",
+    "requests>=2.32,<3",
+    "shapely>=2.0,<3",
+    "urllib3>=2,<3",
+]
+
+# The analysis lives in notebooks; installation only provides dependencies.
+[tool.setuptools]
+packages = []

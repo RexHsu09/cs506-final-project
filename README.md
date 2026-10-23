@@ -1,5 +1,7 @@
 # Do Street-Level Images Improve Road-Segment Crash Prediction?
 
+**Geospatial EDA:** Start with [00 — EDA overview](notebooks/00_eda_overview.ipynb) for data sources, table meanings, workflow, and reading order. Notebooks 01–03 show the main calculations alongside their results. See also the [run guide](docs/EDA_GUIDE.md), [current findings](reports/real_data/FINDINGS.md), and [offline map](reports/real_data/greater_boston_map.html). The synthetic demo and plan walkthrough remain separate illustrations; collection and human-review status are explicit.
+
 ## Project description and motivation
 
 Road inventories describe traffic volume, road class, lanes, and speed limits, but may not fully capture visible conditions such as vegetation and sidewalks. We will test whether visual features improve road-segment crash prediction beyond road-inventory data, and whether the conclusion depends on spatial matching and image coverage.

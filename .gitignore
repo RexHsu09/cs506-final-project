@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Geospatial source snapshots and notebook-generated caches.
+/data/
+# Full per-image audit is reproducible but large; retain locally, export summaries.
+reports/real_data/tables/image_distance_audit.csv
+.env.*
+!.env.example
+
+# Local meeting notes.
+/meeting_notes/
+# Archived project files.
+/legacy/
