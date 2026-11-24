@@ -1,0 +1,9 @@
+analysis_field,source,unit,rule
+segment_id,GlobalID,Identifier,Preserved for joins
+geometry_length_m,Geometry,meters,Valid positive line length
+aadt_reported,AADT,vehicles/day,"Positive reported values, including flagged candidates"
+aadt_screened_sensitivity,"AADT, AADT_Deriv",vehicles/day,"Exclude suspected 1154 and explicit default codes, sensitivity only"
+aadt_year_pre2023,AADT_Year,year,Integer 1900 through 2022
+road_width_ft,Surface_Wd,feet,Positive values
+posted_speed_mph,Speed_Lim,mph,Positive values except suspected special code 99
+travel_lanes,Num_Lanes,lanes,Positive values; opposing lanes remain separate

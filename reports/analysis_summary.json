@@ -1,0 +1,28 @@
+{
+  "source_records": 55143,
+  "screened_records": 54647,
+  "municipalities": [
+    "Boston",
+    "Brookline",
+    "Cambridge",
+    "Dedham",
+    "Everett",
+    "Milton",
+    "Needham",
+    "Newton",
+    "Quincy",
+    "Revere",
+    "Somerville",
+    "Watertown",
+    "Winthrop"
+  ],
+  "findings": [
+    "The extract contains 55,143 original records. The provisional geometry/facility screen retains 54,647 (99.1%) across 13 municipalities.",
+    "Usable posted speed is unavailable for 73.5% of screened roads. Unavailability ranges from 58.0% in Brookline to 78.3% in Newton.",
+    "Of 45,851 roads with positive reported AADT, 24,993 (54.5%) have no usable pre-2023 reference year. Among positive AADT with known years, the median reference year is 2021.",
+    "There are 24,992 roads with AADT 1154 and no derivation code. Treating these as unavailable is a sensitivity assumption. Median available AADT changes from 1,154 to 11,160 under the suspected/explicit-default screen.",
+    "A complete-case requirement for AADT, posted speed, width and lanes retains 13,348/54,647 roads (24.4%). Local-road representation changes from 58.5% to 1.0% of the retained sample."
+  ],
+  "four_feature_complete_records": 13348,
+  "raw_snapshot_completed_at_utc": "2026-11-24T17:06:35.694706+00:00"
+}

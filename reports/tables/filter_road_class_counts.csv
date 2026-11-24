@@ -1,0 +1,8 @@
+class_label,All screened roads,Reported AADT available,AADT and pre-2023 year available,Posted speed available,All four features available,"Four features, AADT year and default screen"
+0 Local,31970,25000,23,152,130,4
+1 Interstate,430,420,420,391,382,382
+2 Principal arterial,2271,2024,2023,2106,1861,1860
+3 Minor/principal arterial,6687,6410,6410,6151,5819,5819
+5 Arterial/collector,7464,6916,6916,5123,4611,4611
+6 Collector,5128,5045,5045,551,545,545
+Unknown / missing,697,36,21,2,0,0

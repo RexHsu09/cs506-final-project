@@ -1,0 +1,6 @@
+,geometry_length_m,aadt_reported,road_width_ft,travel_lanes,posted_speed_mph
+geometry_length_m,31970,25000,24831,27287,152
+aadt_reported,25000,25000,24421,24998,131
+road_width_ft,24831,24421,24831,24830,149
+travel_lanes,27287,24998,24830,27287,151
+posted_speed_mph,152,131,149,151,152
