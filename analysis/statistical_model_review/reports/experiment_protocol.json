@@ -1,0 +1,65 @@
+{
+  "candidate_configs": [
+    {
+      "name": "original_lr",
+      "family": "original",
+      "aadt": "raw",
+      "C": 1.0
+    },
+    {
+      "name": "separate_lr_raw_C0.1",
+      "family": "separate_lr",
+      "aadt": "raw",
+      "C": 0.1
+    },
+    {
+      "name": "separate_lr_raw_C1",
+      "family": "separate_lr",
+      "aadt": "raw",
+      "C": 1.0
+    },
+    {
+      "name": "boost_raw_7",
+      "family": "boost",
+      "aadt": "raw",
+      "max_leaf_nodes": 7
+    },
+    {
+      "name": "boost_raw_15",
+      "family": "boost",
+      "aadt": "raw",
+      "max_leaf_nodes": 15
+    },
+    {
+      "name": "separate_lr_screened_C0.1",
+      "family": "separate_lr",
+      "aadt": "screened",
+      "C": 0.1
+    },
+    {
+      "name": "separate_lr_screened_C1",
+      "family": "separate_lr",
+      "aadt": "screened",
+      "C": 1.0
+    },
+    {
+      "name": "boost_screened_7",
+      "family": "boost",
+      "aadt": "screened",
+      "max_leaf_nodes": 7
+    },
+    {
+      "name": "boost_screened_15",
+      "family": "boost",
+      "aadt": "screened",
+      "max_leaf_nodes": 15
+    }
+  ],
+  "folds": 4,
+  "group": "original 2 km block",
+  "selection_metric": "unweighted mean fold average precision",
+  "selection_rule": "highest mean CV AP; retain original unless improvement >= 0.005",
+  "threshold": 0.005,
+  "test_role": "fixed exploratory comparison after selection; already explored by team",
+  "archive_sha256": "de21dc73d63bbe0f8e08c270281407a3cb94a8828f3c59af8c010466abc549d3"
+}

@@ -1,0 +1,32 @@
+{
+  "cohort_rows": 20292,
+  "road_rows": 22592,
+  "feature_rows": 20685,
+  "unknown_excluded": 393,
+  "exposure_formula_verified": true,
+  "traffic_flag_formula_verified": true,
+  "unique_ids_and_target_agreement_verified": true,
+  "train_test_blocks_disjoint": true,
+  "shape_length_unit": "meters",
+  "source_Length_unit": "miles",
+  "split_summary": [
+    {
+      "split": "test",
+      "segments": 5368,
+      "positive_segments": 541,
+      "positive_share": 0.10078241430700446,
+      "spatial_blocks": 16,
+      "raw_aadt_missing_share": 0.12164679582712369,
+      "screened_aadt_missing_share": 0.6484724292101341
+    },
+    {
+      "split": "train",
+      "segments": 14924,
+      "positive_segments": 1194,
+      "positive_share": 0.08000536049316537,
+      "spatial_blocks": 50,
+      "raw_aadt_missing_share": 0.18641114982578397,
+      "screened_aadt_missing_share": 0.6372286250335031
+    }
+  ]
+}

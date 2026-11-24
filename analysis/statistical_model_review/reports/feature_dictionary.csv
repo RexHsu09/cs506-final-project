@@ -1,0 +1,26 @@
+column,source,meaning,units_or_values,usage
+segment_id,Bryan and Molly,Unique road segment identifier,GlobalID string,Key only
+had_crash,Bryan segment labels,At least one matched crash during observation window,0 or 1,Target only
+block,Bryan frozen split,Original 2 km spatial block,string,CV grouping only; excluded from predictors
+split,Bryan frozen split,Original training or test assignment,train or test,Preserved evaluation assignment
+exposure,Bryan features,Raw AADT multiplied by source Length,AADT times miles,Original logistic predictor; proxy exposure
+traffic_counted,Bryan features,Nonmissing aadt_clean,0 or 1,Preserved original predictor; does not establish direct measurement
+aadt_available_screened,EDA alias,Exact copy of traffic_counted,0 or 1,Clearer availability wording in alternative models
+AADT,Molly road attributes,Original traffic estimate,vehicles per day,Raw AADT variant
+aadt_clean,Bryan road attributes,Team-screened AADT with flagged defaults masked,vehicles per day,Screened sensitivity variant
+aadt_is_default,Bryan road attributes,Team default-value screening flag,boolean,Audit only; not an independently confirmed metadata rule
+AADT_Deriv,Molly road attributes,Source derivation code,coded category,Audit only; do not equate nonmissing AADT with direct measurement
+Length,Molly road attributes,Source segment length,miles,Original exposure formula
+Shape__Length,Molly road attributes,Geometric road-segment length,meters,Separate length predictor
+log_length_m,EDA derived,log1p of geometric length,log transformed meters,Alternative models
+log_aadt_raw,EDA derived,log1p of raw AADT,log transformed vehicles per day,Raw alternative models
+log_aadt_screened,EDA derived,log1p of screened AADT,log transformed vehicles per day,Screened alternative models
+log_exposure,Bryan transformation,log1p of raw exposure,log transformed proxy exposure,Original model
+surface_wd_clean,Bryan road attributes,Surface width with zero masked,feet,Original and alternative models
+connections,Bryan features,Team road connectivity measure,count as supplied,Original and alternative models; not independently reconstructed
+connections_x_arterial,Bryan transformation,Connections multiplied by arterial-road indicator,count,Original and alternative models
+road_type,Bryan features,Grouped road functional class,category,Original and alternative models
+sidewalks,Bryan features,Grouped sidewalk availability,both or one or none or unknown,Original and alternative models
+crash_count,Bryan segment labels,Matched crash count,count,Descriptive only; excluded from predictors
+aadt_status,EDA derived,Missing raw or masked or available after screening,category,Descriptive subgroups only
+length_bin_m,EDA derived,Fixed geometric length bins,meters,Descriptive only
