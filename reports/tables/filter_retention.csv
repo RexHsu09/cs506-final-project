@@ -1,0 +1,7 @@
+rule,retained,excluded,retained_share
+All screened roads,54647,0,1.0
+Reported AADT available,45851,8796,0.8390396545098542
+AADT and pre-2023 year available,20858,33789,0.3816860943876151
+Posted speed available,14476,40171,0.26490017750288214
+All four features available,13348,41299,0.2442586052299303
+"Four features, AADT year and default screen",13221,41426,0.24193459842260326

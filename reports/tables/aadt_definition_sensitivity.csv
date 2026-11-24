@@ -1,0 +1,4 @@
+definition,available_segments,share_of_retained,median_aadt
+Positive reported AADT,45851,0.8390396545098542,1154.0
+Reported AADT with known pre-2023 year,20858,0.3816860943876151,11160.0
+AADT excluding suspected/explicit defaults,20859,0.3817043936538145,11160.0
