@@ -1,0 +1,8 @@
+# Standalone package rules; merge with existing team rules rather than replacing them.
+/data/
+/.cache/
+/.deps/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

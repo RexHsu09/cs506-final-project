@@ -1,0 +1,3 @@
+split,segments,positive_segments,positive_share,spatial_blocks,raw_aadt_missing_share,screened_aadt_missing_share
+test,5368,541,0.10078241430700446,16,0.12164679582712369,0.6484724292101341
+train,14924,1194,0.08000536049316537,50,0.18641114982578397,0.6372286250335031

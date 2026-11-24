@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "All 5 notebook code cells executed; no cell errors",
+    "All four AP scores independently recomputed with tied-score grouping; Brier scores verified",
+    "Training fold membership and train/test block separation verified against saved keyed cohort",
+    "Nine candidates \u00d7 four folds; aggregate CV scores independently checked",
+    "Frozen selection obeys the recorded training-CV rule and hashes match",
+    "Archived original reproduced; 1,000 finite block-bootstrap draws and saved interval verified",
+    "Five PNG figures are valid; layout inspected visually"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "selected": {
+    "name": "separate_lr_raw_C1",
+    "family": "separate_lr",
+    "aadt": "raw",
+    "C": 1.0
+  },
+  "cv_winner": "separate_lr_raw_C1",
+  "chosen_mean_cv_ap": 0.38465543355165543,
+  "original_mean_cv_ap": 0.34311202172893446,
+  "minimum_cv_gain": 0.005,
+  "selected_at_utc": "2026-11-24T17:56:55.020056+00:00",
+  "archive_sha256": "de21dc73d63bbe0f8e08c270281407a3cb94a8828f3c59af8c010466abc549d3",
+  "protocol_sha256": "93c7b4c30d3ffbfc463a6feafa14a7e1e934d254fe1bf45668905d908da69e7f",
+  "fold_assignments_sha256": "d187a3ea84886b1210db582494ed65463bbc63a85dcf6d8e1ea4d8984c582ccd",
+  "cv_summary_sha256": "5e6907af94b4b9a3c084c2de381548986477e46a227d0a309d464a5dfc8635ca",
+  "split_sha256": "31d48ad2a001b3ef1022abfb335435ba2cd03bdadbdaa30aa5b49742b70e4f69",
+  "selection_did_not_use_test_scores": true
+}

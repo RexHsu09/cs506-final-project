@@ -1,0 +1,59 @@
+{
+  "selected_candidate": "separate_lr_raw_C1",
+  "test_segments": 5368,
+  "test_positive_segments": 541,
+  "test_prevalence": 0.10078241430700446,
+  "test_blocks": 16,
+  "metrics": [
+    {
+      "model": "road_type_baseline",
+      "test_ap": 0.19367878145555453,
+      "brier": 0.08563892356302709,
+      "top_10pct_segments": 537,
+      "top_10pct_precision": 0.2644320297951583,
+      "top_10pct_recall": 0.26247689463955637
+    },
+    {
+      "model": "original_archived",
+      "test_ap": 0.3523661692536333,
+      "brier": 0.07797895424038663,
+      "top_10pct_segments": 537,
+      "top_10pct_precision": 0.3538175046554935,
+      "top_10pct_recall": 0.3512014787430684
+    },
+    {
+      "model": "original_refit",
+      "test_ap": 0.3523661692536333,
+      "brier": 0.0779789542358137,
+      "top_10pct_segments": 537,
+      "top_10pct_precision": 0.3538175046554935,
+      "top_10pct_recall": 0.3512014787430684
+    },
+    {
+      "model": "cv_selected",
+      "test_ap": 0.36975191554796616,
+      "brier": 0.07672433223520735,
+      "top_10pct_segments": 537,
+      "top_10pct_precision": 0.37243947858473,
+      "top_10pct_recall": 0.36968576709796674
+    }
+  ],
+  "original_reproduction_max_probability_difference": 2.0281797352694753e-09,
+  "selected_minus_archived_test_ap": 0.01738574629433287,
+  "paired_block_bootstrap": {
+    "draws": 1000,
+    "seed": 506,
+    "percentile_95_interval": [
+      0.005560525526789567,
+      0.032059498321511455
+    ],
+    "limitations": "16 test blocks; adjacent blocks may remain correlated; prior test exploration and matching uncertainty are not captured."
+  },
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.9.1",
+    "pandas": "2.3.3",
+    "numpy": "2.5.5"
+  },
+  "test_comparison_status": "Exploratory: the existing team test has previously been inspected."
+}
