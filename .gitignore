@@ -217,6 +217,9 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# Project datasets
 /data/
+
+# Local EDA files
 /.cache/
 /.publish/
